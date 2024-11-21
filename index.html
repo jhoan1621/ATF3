@@ -18,14 +18,23 @@
 </Div>
     <div class="calculadora">
         <h1>Comvertidor</h1>
-        <label for="base">Moneda:</label><br>
+        <select name="select">
+            <option value="1">Euros</option>
+            <option value="2" selected>Dolares</option>
+            <option value="3">Soles</option>
+          </select>
         <input type="text" id="base" name="base" placeholder="Ingresa la cantidad de dinero"><br>
+        <button onclick="AreaTriangulo()">↑ ↓</button> <br/>
+        <select name="select">
+            <option value="1">Euros</option>
+            <option value="2" selected>Dolares</option>
+            <option value="3">Soles</option>
+          </select>
+          <input type="text" id="resultado" name="resultado" placeholder="Resultado"><br>
 
         
 
-        <button onclick="AreaTriangulo()">↑ ↓</button>
-
-     <h2 id="resultado"></h2>
+     
     </div>
 </body>
 </html>

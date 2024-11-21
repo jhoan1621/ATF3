@@ -42,7 +42,14 @@
     border-radius: 4px;
     font-size: 16px;
 }
-
+.calculadora select{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
 /* Estilo del botón */
 .calculadora button {
     background-color: #28a745;
