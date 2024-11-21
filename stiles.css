@@ -1,0 +1,59 @@
+ /* Estilos generales de la página */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor de la calculadora */
+.calculadora {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Título */
+.calculadora h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Estilos de los campos de entrada */
+.calculadora input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo del botón */
+.calculadora button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calculadora button:hover {
+    background-color: #218838;
+}
+
+/* Estilo del resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+}
