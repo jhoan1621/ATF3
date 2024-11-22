@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stiles.css">
-    <script src="script.js"></script>
+    <script src="MostrarResultados.js"></script>
     <title>Grupo 2</title>
 </head>
 <body>
@@ -12,27 +12,29 @@
     <ul><p>Integrantes</p>
 
         <li> Gallardo Juarez Margarita Elizabeth </li>
+        <br>
         <li> Montañez Catalan Jhoan</li>
-        <li>  </li>
+        <br>
+        <li> Cochachin Guillermo Helen Pilar </li>
     </ul>
 </Div>
     <div class="calculadora">
-        <h1>Comvertidor</h1>
-        <select name="select">
+        <h1>Convertidor</h1>
+        <p>En que moneda esta:</p>
+        <select name="select" id="valor1">
             <option value="1">Euros</option>
-            <option value="2" selected>Dolares</option>
-            <option value="3">Soles</option>
+            <option value="2">Dolares</option>
+            <option value="3" selected>Soles</option>
           </select>
         <input type="text" id="base" name="base" placeholder="Ingresa la cantidad de dinero"><br>
-        <button onclick="AreaTriangulo()">↑ ↓</button> <br/>
-        <select name="select">
+        <p>A que moneda quieres combertirlo:</p>
+        <select name="select" id="valor2">
             <option value="1">Euros</option>
             <option value="2" selected>Dolares</option>
             <option value="3">Soles</option>
-          </select>
-          <input type="text" id="resultado" name="resultado" placeholder="Resultado"><br>
-
-        
+          </select><br>
+          <button onclick="combertidor()">↑ ↓</button> <br>
+        <p id="resultado"></p><br>
 
      
     </div>
